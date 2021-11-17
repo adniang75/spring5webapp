@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="/webjars/bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet"
+          th:href="@{/webjars/bootstrap/5.1.1/css/bootstrap.min.css}"/>
+    <title th:text="${appName}">Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1>Author List</h1>
+    </div>
+</div>
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="author : ${authors}">
+            <td th:text="${author.id}">123</td>
+            <td th:text="${author.firstName}">Joe</td>
+            <td th:text="${author.lastName}">Biden</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="/webjars/jquery/3.6.0/jquery.min.js" th:src="@{/webjars/jquery/3.6.0/jquery.min.js}"></script>
+<script src="/webjars/bootstrap/5.1.1/js/bootstrap.min.js"
+        th:src="@{/webjars/bootstrap/5.1.1/js/bootstrap.min.js}"></script>
+</body>
+</html>
