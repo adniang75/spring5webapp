@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.alassaneniang</groupId>
     <artifactId>spring5webapp</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring5webapp</name>
     <description>spring5webapp</description>
     <properties>
@@ -128,7 +128,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:adniang75/spring5webapp.git</developerConnection>
-        <tag>spring5webapp-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
