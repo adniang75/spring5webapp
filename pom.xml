@@ -127,7 +127,7 @@
     </pluginRepositories>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:adniang75/pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:adniang75/spring5webapp.git</developerConnection>
         <tag>spring5webapp-0.0.1</tag>
     </scm>
 
